@@ -1,20 +1,103 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Arrow Unblock — Developer</title>
+  <title>Hammad Siddiqui — App Developer</title>
   <style>
-    body { font-family: system-ui, sans-serif; max-width: 40rem; margin: 3rem auto; padding: 0 1.25rem; line-height: 1.5; color: #0b1220; }
-    a { color: #0a66c2; }
+    :root {
+      --bg: #0f1115;
+      --fg: #e8eaed;
+      --muted: #9aa0a6;
+      --accent: #7dd3fc;
+      --card: #1a1d24;
+      --line: #2a2f3a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      background: radial-gradient(1200px 600px at 10% -10%, #1b2838 0%, var(--bg) 55%);
+      color: var(--fg);
+      line-height: 1.55;
+      min-height: 100vh;
+    }
+    main {
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: 3.5rem 1.25rem 4rem;
+    }
+    h1 {
+      font-size: 1.75rem;
+      letter-spacing: -0.02em;
+      margin: 0 0 0.5rem;
+    }
+    .lead {
+      color: var(--muted);
+      margin: 0 0 2rem;
+    }
+    h2 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin: 2rem 0 0.75rem;
+    }
+    .app {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 1rem 1.1rem;
+      margin-bottom: 0.75rem;
+    }
+    .app h3 {
+      margin: 0 0 0.35rem;
+      font-size: 1.1rem;
+    }
+    .pkg {
+      font-family: ui-monospace, Consolas, monospace;
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin: 0 0 0.65rem;
+    }
+    a { color: var(--accent); }
+    ul { margin: 0; padding-left: 1.1rem; }
+    li { margin: 0.25rem 0; }
+    footer {
+      margin-top: 2.5rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
   </style>
 </head>
 <body>
-  <h1>Arrow Unblock</h1>
-  <p>Developer site for <code>com.arrowunblock.app</code>.</p>
-  <ul>
-    <li><a href="https://sqhammad.github.io/arrowunbloack-privacy-policy/">Privacy Policy</a></li>
-    <li><a href="/app-ads.txt">app-ads.txt</a></li>
-  </ul>
+  <main>
+    <h1>Hammad Siddiqui</h1>
+    <p class="lead">Android puzzle games. Contact: <a href="mailto:sqhammad012@gmail.com">sqhammad012@gmail.com</a></p>
+
+    <h2>Apps</h2>
+
+    <section class="app">
+      <h3>Block Grid</h3>
+      <p class="pkg">com.blockgrid.game</p>
+      <ul>
+        <li><a href="https://sqhammad.github.io/blockgrid-privacy-policy/">Privacy Policy</a></li>
+        <li><a href="https://play.google.com/store/apps/details?id=com.blockgrid.game">Google Play</a></li>
+      </ul>
+    </section>
+
+    <section class="app">
+      <h3>Arrow Unblock</h3>
+      <p class="pkg">com.arrowunblock.app</p>
+      <ul>
+        <li><a href="https://sqhammad.github.io/arrowunbloack-privacy-policy/">Privacy Policy</a></li>
+      </ul>
+    </section>
+
+    <h2>Advertising authorization</h2>
+    <p><a href="/app-ads.txt">app-ads.txt</a> — authorized sellers for ads on these apps.</p>
+
+    <footer>Developer website for Google Play / AdMob app-ads.txt verification.</footer>
+  </main>
 </body>
 </html>
